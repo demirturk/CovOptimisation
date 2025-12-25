@@ -1,10 +1,34 @@
-# results and figures
-/results/
-/*.fig
-*.mat
-
-# MATLAB autosave / cache
+# MATLAB
 *.asv
 *.m~
-*.mex*
+*.autosave
+*.bak
+*.tmp
+
+# MATLAB cache / code generation
 slprj/
+sccprj/
+codegen/
+*.slxc
+
+# Live scripts exports / temp
+*.mlx~
+*.fig.bak
+
+# Simulink / model artifacts (if any)
+*.rsl
+*.dwl
+*.log
+*.mex*
+
+# Data / results (choose based on your project)
+results/
+output/
+.mat
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
