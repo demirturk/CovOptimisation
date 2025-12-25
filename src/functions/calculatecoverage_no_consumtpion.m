@@ -1,0 +1,6 @@
+function [coverage]= calculatecoverage_no_consumtpion(placedpassiveNODES_w_consumptionsto1,grno_a,nodeNO)
+
+coverage=(sum(placedpassiveNODES_w_consumptionsto1(:, 6) == grno_a)...
+    +sum(placedpassiveNODES_w_consumptionsto1(:, 12) == grno_a)...
+    +sum(placedpassiveNODES_w_consumptionsto1(:, 18) == grno_a))/nodeNO;
+end

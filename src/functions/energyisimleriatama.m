@@ -1,0 +1,33 @@
+%energyisimleriatama
+%hangi matristen hangi target'a
+	energy_to_be_consumed1to1= energy_to_be_consumedALL(:,1);   
+	energy_to_be_consumed1to2= energy_to_be_consumedALL(:,2);
+ 	energy_to_be_consumed1to3= energy_to_be_consumedALL(:,3);
+    energy_to_be_consumed2to1= energy_to_be_consumedALL(:,4);
+	energy_to_be_consumed2to2= energy_to_be_consumedALL(:,5);
+	energy_to_be_consumed2to3= energy_to_be_consumedALL(:,6);
+    energy_to_be_consumed3to1= energy_to_be_consumedALL(:,7);
+	energy_to_be_consumed3to2= energy_to_be_consumedALL(:,8);
+	energy_to_be_consumed3to3= energy_to_be_consumedALL(:,9);
+
+
+nodes_overhead_energy_consumption_C_1to1= nodes_overhead_energy_consumption_CI_ALL(:,1); 
+nodes_overhead_energy_consumption_C_1to2= nodes_overhead_energy_consumption_CI_ALL(:,2);
+nodes_overhead_energy_consumption_C_1to3= nodes_overhead_energy_consumption_CI_ALL(:,3);
+nodes_overhead_energy_consumption_C_2to1= nodes_overhead_energy_consumption_CI_ALL(:,4);
+nodes_overhead_energy_consumption_C_2to2= nodes_overhead_energy_consumption_CI_ALL(:,5);
+nodes_overhead_energy_consumption_C_2to3= nodes_overhead_energy_consumption_CI_ALL(:,6);
+nodes_overhead_energy_consumption_C_3to1= nodes_overhead_energy_consumption_CI_ALL(:,7);
+nodes_overhead_energy_consumption_C_3to2= nodes_overhead_energy_consumption_CI_ALL(:,8);
+nodes_overhead_energy_consumption_C_3to3= nodes_overhead_energy_consumption_CI_ALL(:,9);
+
+
+encryption_energy_1to1=energy_to_be_consumed1to1-nodes_overhead_energy_consumption_C_1to1;
+encryption_energy_1to2=energy_to_be_consumed1to2-nodes_overhead_energy_consumption_C_1to2;
+encryption_energy_1to3=energy_to_be_consumed1to3-nodes_overhead_energy_consumption_C_1to3;
+encryption_energy_2to1=energy_to_be_consumed2to1-nodes_overhead_energy_consumption_C_2to1;
+encryption_energy_2to2=energy_to_be_consumed2to2-nodes_overhead_energy_consumption_C_2to2;
+encryption_energy_2to3=energy_to_be_consumed2to3-nodes_overhead_energy_consumption_C_2to3;
+encryption_energy_3to1=energy_to_be_consumed3to1-nodes_overhead_energy_consumption_C_3to1;
+encryption_energy_3to2=energy_to_be_consumed3to2-nodes_overhead_energy_consumption_C_3to2;
+encryption_energy_3to3=energy_to_be_consumed3to3-nodes_overhead_energy_consumption_C_3to3;

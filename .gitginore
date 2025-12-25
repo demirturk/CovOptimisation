@@ -1,0 +1,10 @@
+# results and figures
+/results/
+/*.fig
+*.mat
+
+# MATLAB autosave / cache
+*.asv
+*.m~
+*.mex*
+slprj/
