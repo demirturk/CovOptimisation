@@ -9,10 +9,10 @@ This repository contains a MATLAB simulation framework for coverage optimisation
    - `main.m`
 
 ## Outputs
-Simulation outputs (figures/results) will be generated during execution. (Describe where they are saved: e.g., `results/`.)
+Simulation outputs (figures/results) will be generated during execution.
 
 ## Configuration
-Key parameters can be configured in: (write file names, e.g., `cfg.m` or `config/*.m`)
+Key parameters can be configured in: main.c ,sim_INPUTS.m and neo_call_energy_info.m
 
 ## Requirements
 - MATLAB (tested on: version 2023a)
